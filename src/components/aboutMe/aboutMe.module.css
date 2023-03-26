@@ -1,0 +1,81 @@
+.main {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.row {
+    width: 70%;
+    margin: 40px auto 0;
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+}
+
+.row .image {
+    text-align: center;
+    padding: 20px;
+}
+
+.image>img {
+    width: 17rem;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    mix-blend-mode: luminosity;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.row .image img:hover {
+    mix-blend-mode: normal;
+}
+
+.left {
+    padding: 3rem;
+}
+
+.left>p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 2px 0;
+}
+
+.left>:nth-child(2) {
+    color: red;
+    padding-bottom: 5px;
+}
+
+small {
+    color: blue;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+@media screen and (max-width:600px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        padding: 0;
+    }
+
+    .left>h1 {
+        text-align: center;
+    }
+
+    .left>:nth-child(2) {
+        text-align: center;
+    }
+
+    .left>p {
+        /* text-align: center; */
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,74 @@
+.main {
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.main .heading {
+    text-align: center;
+padding-bottom: 10px;
+}
+.heading>h1{
+    padding: 10px;
+    font-size: 35px;
+}
+.main .edu {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+
+    /* align-items: center; */
+}
+.purple{
+  color: rgb(115, 3, 167);
+}
+.main .edu .image {
+    width: 30%;
+
+}
+
+.main .edu .image>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main .eduContent {
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 70%;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(146, 161, 176, 0.3) 0px 1px 4px;
+}
+
+.eduContent>:nth-child(1) {
+    color: #002057;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.eduContent>:nth-child(2) {
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.eduContent>:nth-child(3) {
+    color: rgb(34, 109, 0);
+}
+
+
+
+@media screen and (max-width:600px) {
+    .main .edu .image {
+        width: 100%;
+    }
+
+    .main .edu {
+        flex-wrap: wrap;
+    }
+
+    .main .eduContent {
+        width: 100%;
+    }
+}

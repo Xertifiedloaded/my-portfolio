@@ -1,0 +1,75 @@
+.main {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+   color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+}
+
+section {
+    /* background-image: url(../../assets/image/xertified.png); */
+    /* background-image: url(../../assets//image//83WF.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    line-height: 1.4;
+}
+
+.main .right>img {
+    width: 100%;
+    aspect-ratio: 3/3;
+    object-fit: cover;
+    border-radius: 100%;
+    border-image-source: inherit;
+}
+
+.left>p {
+    font-size: 40px;
+}
+
+.left h3 {
+    line-height: 2;
+    font-size: 25px;
+}
+
+.textContent {
+    width: 80%;
+    /* border: 1px solid green; */
+}
+
+.name {
+    display: flex;
+    gap: 5px;
+    font-size: 30px;
+}
+.particle{
+    background: black;
+}
+@media screen and (max-width:600px) {
+    .main {
+        /* height: 50vh; */
+        flex-wrap: wrap;
+    }
+
+    .left {
+        padding: 100px 0 10px;
+    }
+
+    .main .right>img {
+        width: 100%;
+    }
+
+    .textContent {
+        width: 100%;
+    }
+
+    section {
+        background-position: center;
+    }
+}

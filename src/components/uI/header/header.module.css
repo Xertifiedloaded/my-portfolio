@@ -1,0 +1,59 @@
+.main {
+    width: 100%;
+    background: black;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    background-image: url(../../../assets/image/Blur\ Gradient.png);
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.mobile {
+    display: none;
+}
+
+.main .header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .mobile {
+        display: block;
+    }
+
+    nav {
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        height: 100vh;
+        background: black;
+        color: white;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        overflow-y: hidden;
+    }
+
+    .mobile>img {
+        filter: invert(1);
+    }
+
+    a {
+        color: white;
+    }
+}
