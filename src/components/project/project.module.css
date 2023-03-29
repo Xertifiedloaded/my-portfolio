@@ -24,7 +24,7 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 15px;
-        border-radius: 10px;
+    border-radius: 10px;
     background: white;
 }
 
@@ -107,6 +107,10 @@
     }
 
     .currentImage {
+        width: 100%;
+    }
+
+    .btn {
         width: 100%;
     }
 }
