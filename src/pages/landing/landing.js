@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from '../../components/aboutMe/aboutMe'
+import Contact from '../../components/contact/contact'
 import Education from '../../components/Education/education'
 import Hero from '../../components/hero/hero'
 import Project from '../../components/project/project'
@@ -11,7 +12,8 @@ const Landing = () => {
             <Hero />
             <AboutMe />
             <Education />
-            <Project/>
+            <Project />
+            <Contact />
         </div>
     )
 }

@@ -1,0 +1,117 @@
+.inputs {
+    box-sizing: border-box;
+    width: 100%;
+}
+.content{
+    margin-top: 20px;
+}
+.content>h3{
+    padding: 3px 0;
+}
+.content>p{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+form .inputs>input,
+form .inputs>textarea {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+form .inputs>input {
+    height: 50px;
+}
+
+form .inputs>input::placeholder {
+    text-transform: capitalize;
+}
+
+form .inputs>textarea {
+    height: 150px;
+    resize: none;
+
+}
+
+form .btn>button {
+    padding: 0 30px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    position: relative;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    /* background hover effect */
+    background-image: linear-gradient(#1095c1 0 0);
+    background-size: 200% .08em;
+    background-position: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position .3s .3s;
+}
+
+
+
+form .btn button:hover {
+    transition: background-size .3s .3s, background-position .3s;
+    background-size: 200% 100%;
+    background-position: 100% 100%;
+    border-radius: 10px;
+
+}
+
+form .btn button>.send {
+    transform: translateY(10px);
+    transition: 1s;
+        font-size: 18px;
+}
+
+form .btn button:hover .send {
+    transform: translateY(-100px);
+    transition: 1s;
+}
+
+
+.btn {
+    background: white;
+    border-radius: 10px;
+}
+form .btn button>.now {
+    transform: translateY(300px);
+    font-size: 18px;
+
+}
+form .btn button:hover .now {
+    transform: translateY(-10px);
+    transition: 1s;
+    display: block;
+    color: white;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+}
+
+/* 
+.hover-2 {
+    hover effect
+    background-image: linear-gradient(#1095c1 0 0);
+    background-size: 200% .08em;
+    background-position: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position .3s .3s;
+}
+
+.hover-2:hover {
+    transition: background-size .3s .3s, background-position .3s;
+    background-size: 200% 100%;
+    background-position: 100% 100%;
+} */

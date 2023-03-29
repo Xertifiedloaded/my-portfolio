@@ -1,7 +1,7 @@
 import classes from './project.module.css'
 import { card } from '../../constant/constant';
 import { useState } from 'react';
-const Project = () => {
+const Project =  ()  => {
     const [currentImage, setCurrentImage] = useState(card[0])
     const handleClick = (index) => {
         const slider = card[index]
@@ -20,11 +20,12 @@ const Project = () => {
         const width = box.clientWidth
         box.scrollLeft = box.scrollLeft + width;
     }
- 
-
     return (
         <>
             <div className={classes.main}>
+                <h1>
+                    Project Made
+                </h1>
                 <div>
                     <div className={classes.currentImage}>
                         <img src={currentImage.image} alt="" />
@@ -44,6 +45,11 @@ const Project = () => {
 
                         </div>
                     </div>
+                    <div className={classes.btn}>
+                        <button>
+                            View all projects
+                        </button>
+                  </div>
              </div>
             </div>
         </>

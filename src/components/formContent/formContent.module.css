@@ -1,0 +1,19 @@
+.details {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .main {
+        align-items: flex-start;
+    }
+}

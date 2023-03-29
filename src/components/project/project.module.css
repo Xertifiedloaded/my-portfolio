@@ -9,9 +9,40 @@
     margin-bottom: 20px;
 }
 
+.main>h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
 .currentImage>img {
     width: 100%;
     text-align: center;
+}
+
+.btn {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+        border-radius: 10px;
+    background: white;
+}
+
+.btn>button {
+    width: 100%;
+    padding: 17px 50px;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    text-transform: capitalize;
+    font-size: 16px;
+    background: linear-gradient(#1095c1 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: .4s, background-position 0s;
+}
+
+.btn>button:hover {
+    --p: 100%;
+    color: #fff;
 }
 
 .main .slider {
