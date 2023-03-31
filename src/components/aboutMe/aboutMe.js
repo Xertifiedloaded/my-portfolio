@@ -29,7 +29,7 @@ const AboutMe = () => {
                                 <p>Tweaking font size and contemplating layout which is where you will find me.</p>
                                 <p>My vision is to bring ideas to life through web development and make them unique to brands/clients.</p>
                                 <small>
-                                    Skills && Abilities
+                                    Skills and Abilities
                                 </small>
                                 <Skills />
                             </div>

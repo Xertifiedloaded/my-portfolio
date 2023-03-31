@@ -70,7 +70,7 @@ const Hero = () => {
                                 speed: 1,
                                 straight: false
                             },
-                      
+
                             number: {
                                 density: {
                                     enable: true,
@@ -108,7 +108,7 @@ const Hero = () => {
                                 </div>
                                 <Typewriter
                                     options={{
-                                        strings: ['FrontEnd Developer', 'web Developer', 'React Js'],
+                                        strings: ['FrontEnd Developer', 'Web Developer', 'React Developer'],
                                         autoStart: true,
                                         loop: true,
                                     }}
@@ -123,10 +123,10 @@ const Hero = () => {
                     </div>
                 </section>
             </div>
-          
 
 
-         
+
+
         </>
     )
 }

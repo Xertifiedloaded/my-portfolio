@@ -5,12 +5,14 @@
 
 .main .heading {
     text-align: center;
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
-.heading>h1{
+
+.heading>h1 {
     padding: 10px;
     font-size: 35px;
 }
+
 .main .edu {
     display: flex;
     justify-content: center;
@@ -19,9 +21,11 @@ padding-bottom: 10px;
 
     /* align-items: center; */
 }
-.purple{
-  color: rgb(115, 3, 167);
+
+.purple {
+    color: rgb(115, 3, 167);
 }
+
 .main .edu .image {
     width: 30%;
 
@@ -66,9 +70,22 @@ padding-bottom: 10px;
 
     .main .edu {
         flex-wrap: wrap;
+        gap: 0;
     }
 
     .main .eduContent {
         width: 100%;
+    }
+
+    .main .eduContent {
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .main .edu .image>img {
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }

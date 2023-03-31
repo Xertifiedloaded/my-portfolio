@@ -1,0 +1,58 @@
+footer {
+    background: rgb(0, 1, 43);
+}
+
+.main {
+    width: 90%;
+    margin: 100px auto 0;
+    padding: 30px 0;
+    display: grid;
+    place-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+}
+
+.main .footer {
+    display: block;
+}
+
+.main .footer>a {
+    display: block;
+}
+
+footer .main .footer>h2 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+footer .main .footer>a:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+footer .main .footer>a {
+    text-transform: capitalize;
+}
+
+footer .main .footer .social>img:not(:last-child) {
+    margin-right: 10px;
+    width: 10%;
+}
+
+footer .main .footer .social>img:last-child {
+    width: 10%;
+    filter: invert(0);
+}
+
+fieldset {
+    border-width: 1px 0 0 0;
+    box-sizing: border-box;
+}
+fieldset>legend{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 10px;
+}
+@media screen and (max-width:600px) {
+    footer .main .footer>h2{
+        margin: 10px 0;
+    }
+}

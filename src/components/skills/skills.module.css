@@ -1,25 +1,27 @@
-
 .imgContainer {
     background: black;
     display: flex;
     width: 70%;
     justify-content: space-between;
-    /* gap: 20px; */
-border-radius: 5px;
-      
+    border-radius: 5px;
+margin: 5px 0 0;
 }
-.imgContainer>img{
+
+.imgContainer>img {
     width: 10%;
 }
+
 .bar>p {
     text-align: center;
     color: white;
     font-size: 15px;
 }
+
 @media screen and (max-width:600px) {
 
-    .imgContainer{
+    .imgContainer {
         width: 100%;
+        margin: 10px 0;
         gap: 10px;
         box-sizing: border-box;
         padding: 10px;

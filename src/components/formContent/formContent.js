@@ -40,7 +40,7 @@ const FormContent = () => {
                         <img src={call} alt="" />
                     </span>
                     <div onClick={EmailClick} className={classes.dividde}>
-                        <h2>certifiedloaded</h2>
+                        <h2>Certifiedloaded</h2>
                         <h6>
                             Email
                         </h6>

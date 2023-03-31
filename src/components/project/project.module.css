@@ -68,8 +68,8 @@
 .main .slider .prev,
 .main .slider .next {
     position: absolute;
-    top: 50px;
-    background: red;
+    top: 40px;
+background: black;
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -112,5 +112,11 @@
 
     .btn {
         width: 100%;
+    }
+
+    .main .slider .prev,
+    .main .slider .next {
+        top: 40px;
+        background: black;
     }
 }
