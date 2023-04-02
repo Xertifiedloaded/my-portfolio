@@ -1,6 +1,7 @@
 import classes from './project.module.css'
 import { card } from '../../constant/constant';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Project =  ()  => {
     const [currentImage, setCurrentImage] = useState(card[0])
     const handleClick = (index) => {
@@ -46,9 +47,11 @@ const Project =  ()  => {
                         </div>
                     </div>
                     <div className={classes.btn}>
-                        <button>
-                            View all projects
-                        </button>
+                        <Link to="/works">
+                            <button>
+                                View all projects
+                            </button>
+                        </Link>
                   </div>
              </div>
             </div>

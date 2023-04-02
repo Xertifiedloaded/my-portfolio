@@ -2,6 +2,7 @@ import React from 'react'
 import { useRoutes } from 'react-router-dom'
 import MainLayout from './layOut/mainLayout'
 import Landing from './pages/landing/landing'
+import Works from './pages/works/works'
 
 
 const PortfolioRouter = () => {
@@ -13,7 +14,11 @@ const PortfolioRouter = () => {
                 {
                     path: "/",
                     element: <Landing/>
-                }
+                },
+                {
+                    path: "/works",
+                    element: <Works/>
+                },
             ]
         }
     ]
