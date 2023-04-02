@@ -27,7 +27,7 @@ const Works = () => {
 }
 
 export default Works;
-const Cards = ({ image, toggle,name,link ,index, active }) => {
+const Cards = ({ image, toggle,name,link ,index,description, active }) => {
     return (
         <>
             <div className={classes.image} onClick={() => toggle(index)} style={{
@@ -41,16 +41,16 @@ const Cards = ({ image, toggle,name,link ,index, active }) => {
                 borderRadius: "20px"
             }}>
                 {
-                    active === index  ?
+                    active === index  ? 
                         <div className={classes.modal}>
                             <h1>{name}</h1>
-                            <p>description</p>
+                            <p className={classes.description}>{description}</p>
                             <a href={link} target="_blank" rel="noopener noreferrer">
                                 <button>Visit</button>
                             </a>
                         </div>
                         : 
-                        null
+                        null 
                 }
             </div>
         </>

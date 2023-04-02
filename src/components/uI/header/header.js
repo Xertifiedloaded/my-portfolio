@@ -22,7 +22,9 @@ const Header = () => {
             <div className={classes.main}>
                 <div className={classes.header}>
                     <div className={classes.logo}>
-                        Olaitan
+                        <Link to="/">
+                            OLAITAN
+                        </Link>
                     </div>
                     <div className={classes.mobile} onClick={toggler}>
                         {toggle ? <img src={close} alt="" /> : <img src={open} alt="" />}

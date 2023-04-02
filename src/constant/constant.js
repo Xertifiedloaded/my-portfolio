@@ -23,36 +23,42 @@ export const card = [
         id: 1,
         image: snap,
         name: "snap",
+        description: "made with react app ",
         link: "https://snap-flax.vercel.app/"
     },
     {
         id: 2,
         image: bitcoin,
         name: "bitcoin",
+        description:"made with Simple html,css and vanilla js",
         link: "https://bitcoin-website.vercel.app/"
     },
     {
         id: 3,
         image: composey,
         name: "composey",
+        description: "made with Simple html,css and vanilla js",
         link: "https://app.netlify.com/sites/composey-new/"
     },
     {
         id: 4,
         image: huntr,
         name: "huntr",
+        description: "made with Simple html,css and vanilla js",
         link: "https://huntr-new-lilac.vercel.app/"
     },
     {
         id: 5,
         image: sendna,
         name: "sendna",
+        description: "made with Simple html,css and vanilla js",
         link: "https://sendna.vercel.app/"
     },
     {
         id: 6,
         image: samsung,
         name: "sendna",
+        description: "made with Simple html,css and vanilla js",
         link: "https://sendna.vercel.app/"
     },
     {
@@ -65,60 +71,71 @@ export const card = [
         id: 8,
         image: sushi,
         name: "sushi",
+        description: "made with Simple html,css and vanilla js",
         link: "https://sushi-web-app.netlify.app/"
     },
     {
         id: 9,
         image: agrico,
         name: "arico",
+        description: "made with react app ",
         link: ""
     },
     {
         id: 10,
         image: connect,
         name: "connect",
+        description: "made with react app ",
         link: "https://konnect-tau.vercel.app/"
     },
     {
         id: 11,
         image: eehya,
         name: "ehya",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/ehya"
     },
     {
         id: 12,
         image: ip,
         name: "ip",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/ip-tracker"
     },
     {
         id: 13,
         image: finsweet,
         name: "finsweet",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/ip-tracker"
     },
     {
         id: 14,
         image: loop,
         name: "loopStudio",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/loopstudios"
     },
     {
         id: 15,
         image: calculator,
         name: "calculator",
+        description: "made with Simple html,css and vanilla js",
         link: "https://vercel.com/xertifiedloaded/digital-calculator"
     },
     {
         id: 16,
         image: movie,
+        description: "made with Simple html,css and vanilla js",
         name: "movie App",
+        
         link: "https://vercel.com/xertifiedloaded/movie-app"
     },
     {
         id: 17,
         image: todo,
         name: "To-Do App",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/to-do"
     },
     {
@@ -130,19 +147,21 @@ export const card = [
     {
         id: 19,
         image: quiz,
-        name: "Calculator",
+        name: "quiz app",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/quiz-question"
     },
     {
         id: 20,
         image: password,
-        name: "Calculator",
+        name: "password generator",
         link: "https://vercel.com/xertifiedloaded/quiz-question"
     },
     {
         id: 20,
         image: quote,
-        name: "Calculator",
+        name: "quote",
+        description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/quiz-question"
     },
 ]

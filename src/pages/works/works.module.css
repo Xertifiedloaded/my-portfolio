@@ -9,6 +9,7 @@ main {
     padding-top: 100px;
     display: grid;
     gap: 20px;
+
     grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
 }
 
@@ -16,19 +17,40 @@ main {
     width: 100%;
 }
 
+.description {
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
 .modal {
+    overflow: hidden;
     transition: 1s;
     border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;
     background-color: #8a2b06;
+    animation: slide-down 300ms ease-out forwards;
+
 }
-.modal h1{
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(150px);
+    }
+}
+
+.modal h1 {
     text-transform: capitalize;
 }
-.modal a button{
+
+.modal a button {
     width: 100%;
     padding: 10px 0;
     border-radius: 10px;
 }
-

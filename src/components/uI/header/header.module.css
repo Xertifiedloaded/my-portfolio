@@ -12,7 +12,7 @@
 nav {
     display: flex;
     gap: 30px;
-    align-items: center;
+    /* align-items: center; */
     text-transform: capitalize;
 }
 
@@ -37,9 +37,12 @@ nav {
     }
 
     nav {
+        padding: 20px 20px 0;
+        width: 100%;
+        overflow: hidden;
         flex-direction: column;
         position: fixed;
-        top: 50px;
+        top: 69px;
         height: 100vh;
         background: black;
         color: white;
@@ -47,6 +50,19 @@ nav {
         right: 0;
         z-index: 2;
         overflow-y: hidden;
+        animation: slide-down 300ms ease-out forwards;
+    }
+
+    @keyframes slide-down {
+        from {
+            opacity: 0;
+            transform: translateX(0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(150px);
+        }
     }
 
     .mobile>img {
