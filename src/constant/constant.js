@@ -18,7 +18,15 @@ import todo from '../assets/image/todo.png'
 import password from '../assets/image/password.png'
 import quiz from '../assets/image/quiz.png'
 import quote from '../assets/image/quote.png'
+import food from '../assets/image/foodApp.png'
 export const card = [
+    {
+        id: 0,
+        image: food,
+        name: "food app",
+        description: "made with react app ",
+        link: ""
+    },
     {
         id: 1,
         image: snap,
