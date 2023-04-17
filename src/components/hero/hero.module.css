@@ -20,7 +20,12 @@ section {
 .left {
     line-height: 1.4;
 }
-
+.cv a>button{
+padding: 10px 20px;
+border: 0.7px solid black;
+border-radius:5px;
+text-transform: capitalize;
+}
 .main .right>img {
     width: 100%;
     aspect-ratio: 3/3;

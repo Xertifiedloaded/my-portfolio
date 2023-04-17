@@ -4,21 +4,34 @@
 }
 
 .currentImage {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    display: flex;
+
+    gap: 10px;
     margin-bottom: 20px;
 }
 
 .main>h1 {
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.currentImage>img {
+.currentImage .currentSliderImg,
+.currentImage .progress {
+    width: 50%;
+}
+
+.currentSliderImg>img {
     width: 100%;
     text-align: center;
 }
-
+.span1{
+    font-size: 12px;
+    display: block;
+}
 .btn {
     width: 20%;
     margin: 0 auto;
@@ -28,7 +41,7 @@
     background: white;
 }
 
-.btn a >button {
+.btn a>button {
     width: 100%;
     padding: 17px 50px;
     border-radius: 10px;
@@ -69,7 +82,7 @@
 .main .slider .next {
     position: absolute;
     top: 40px;
-background: black;
+    background: black;
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -107,6 +120,12 @@ background: black;
     }
 
     .currentImage {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .currentImage .currentSliderImg,
+    .currentImage .progress {
         width: 100%;
     }
 

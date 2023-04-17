@@ -1,0 +1,101 @@
+.main .skillBox {
+    width: 100%;
+}
+
+.main h1 {}
+
+.main .skillBox:not(:first-child) {
+    margin: 14px 0;
+}
+
+.skillBox .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 60%;
+    color: white;
+}
+
+.skillBox .skillBar {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background: rgb(185, 172, 172);
+}
+
+.skillBox .skillPercent {
+    width: 100%;
+  height: 20px;
+    display: block;
+    position: relative;
+    border-radius: 6px;
+    background-color: crimson;
+    animation: progress 3s ease-in-out forwards;
+}
+
+.skillPercent.html {
+    animation-delay: 0.3s;
+    width: 95%;
+}
+
+.skillPercent.css {
+    animation-delay: 0.4s;
+    width: 93%;
+}
+
+.skillPercent.js {
+    animation-delay: 0.5s;
+    width: 87%;
+}
+
+.skillPercent.react {
+    animation-delay: 0.6s;
+    width: 90%;
+
+}
+
+.skillPercent.github {
+    animation-delay: 0.6s;
+    width: 98%;
+}
+
+.skillPercent.wordpress {
+    animation-delay: 0.6s;
+    width: 60%;
+}
+.skillPercent.netlify {
+    animation-delay: 0.6s;
+    width: 80%;
+}
+
+.skillPercent .toolTip {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    background: crimson;
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.toolTip::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    left: 50%;
+    background: crimson;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+@keyframes progress {
+
+    from {
+        width: 0;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
