@@ -77,7 +77,11 @@ form .btn button:hover .send {
     transition: 1s;
 }
 
-
+.error{
+    color: red;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
 .btn {
     background: white;
     border-radius: 10px;
