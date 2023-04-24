@@ -21,7 +21,7 @@ const FormBox = () => {
   };
   const HandleSubmit = (event) => {
     event.preventDefault();
-    setSubmitted(true);
+    setTimeout(setSubmitted(true), 5000);
     if (
       payLoad.firstName &&
       payLoad.lastName &&

@@ -31,6 +31,24 @@
 
 }
 
+.eduContent .certificate a>button {
+    background: black;
+    padding: 15px 30px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 8px;
+    border: none;
+    transition: 1s ease-in-out ;
+
+}
+.eduContent .certificate a>button:hover{
+background: transparent;
+color: black;
+border: 1px solid black;
+}
+.eduContent .certificate a>button:visited{
+    color: red;
+}
 .main .edu .image>img {
     width: 100%;
     border-radius: 10px;
