@@ -19,6 +19,8 @@ import password from '../assets/image/password.png'
 import quiz from '../assets/image/quiz.png'
 import quote from '../assets/image/quote.png'
 import food from '../assets/image/foodApp.png'
+import central from '../assets/image/centralized.png'
+
 export const card = [
     {
         id: 0,
@@ -171,6 +173,13 @@ export const card = [
         name: "quote",
         description: "made with react app ",
         link: "https://vercel.com/xertifiedloaded/quiz-question"
+    },
+    {
+        id: 21,
+        image: central,
+        name: "centralize",
+        description: "made with react app ",
+        link: "https://centralize-liart.vercel.app/"
     },
 ]
 export const navItems = [
